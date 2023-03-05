@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 70px;
+    background-image: url("snow.jpg");
+  }
+  h1 {
+    text-align: center;
+    margin-top: 0;
+    font-weight: bolder;
+   font-family:'Times New Roman', Times, serif;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-style: italic;
+    color: azure;
+    font-size: larger;
+  }
+  input[type="text"] {
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 7px;
+  }
+  select {
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 7px;
+  }
+  button {
+    padding: 20px;
+    background-color: #100337;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-left: 45%;
+    width: 15%;
+    font-size: larger;
+  }
+  button:hover {
+    background-color: #1362a3;
+  }
+  #result {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
